@@ -6,7 +6,7 @@ input {
   width: 100%;
 }
 
-.kg-button {
+button {
   min-width: 90px;
 }
 .kg-row {
@@ -15,4 +15,10 @@ input {
 
 .col-2 {
   width: 10px;
+}
+
+@media screen  and (max-width: 520px) {
+  button {
+    min-width: 70px;
+  }
 }
